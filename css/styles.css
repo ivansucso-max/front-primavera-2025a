@@ -15,3 +15,43 @@ body{
 .title{
     color:red;
 }
+
+.nav-items{
+  display:flex;
+  
+}
+
+.nav-items li{
+  font-size: 3rem;
+  list-style: none;
+  margin: 1.5rem;
+}
+
+.navbar{
+  background-color: #FA4F01;
+  display: flex;
+  justify-content: space-between;
+}
+
+img{
+  max-width: 100%;
+}
+
+.navbar a{
+  flex-basis: 5%;
+}
+
+.container{
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-items li a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items li a:hover{
+  color: black;
+  text-decoration: none;
+}
